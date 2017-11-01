@@ -1,0 +1,57 @@
+# author: winston
+# 2017/10/30
+
+# spring
+spring:
+#  profiles: development
+
+
+  mvc:
+    static-path-pattern: /public/**
+    view:
+      prefix: /public/html/
+      suffix: .html
+
+my:
+  primary:
+    datasource:
+      name: test
+      url: jdbc:mysql://115.159.126.100:3306/test
+      username: test
+      password: 110
+      # use the druid datasource
+#    spring boot type属性  1.2支持 1.3支持 1.4不支持?
+#    type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      mybatisMapperLocations: classpath*:mappers/**/test/*.xml
+
+#    filters: stat
+#    maxActive: 20
+#    initialSize: 1
+#    maxWait: 60000
+#    minIdle: 1
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: select 'x'
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#    maxOpenPreparedStatements: 20
+
+
+
+
+#server
+server:
+  port: 9999
+
+
+# log
+logging:
+  level:
+    org.springframework: info
+    com.winston: info
+
+
+
