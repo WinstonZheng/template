@@ -1,5 +1,5 @@
-#WebTemplate
-![](/images/build-passing-brightgreen.svg)
+# WebTemplate
+![](/image/build-passing-brightgreen.svg)
 
 这是一个用于快速构建网站的模板。使用技术如下：
 1. spring框架
@@ -9,7 +9,7 @@
 
 ## 包结构
 包结构如下：<br>
-![](/images/resttemplate-package.PNG)
+![](/image/resttemplate-package.PNG)
 包结构解释如下：
 - aop spring aop切面
 - ExceptionAdice 拦截HTTP请求异常（未测试）

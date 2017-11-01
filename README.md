@@ -1,9 +1,9 @@
-#WTem
-![](/images/template-1-brightgreen.svg) <br>
+# WTem
+![](/image/template-1-brightgreen.svg) <br>
 
 > The repository stores the templates for many things. It can be used to start something quickly.
 
-![](/images/template.svg)
+![](/image/template.svg)
 
 用于存储模板的仓库，有利于快速组建项目。
 
