@@ -3,11 +3,10 @@
 
 这是一个用于快速构建网站的模板。使用技术如下：
 1. spring框架：
-	- spring mvc
-	- spring boot
-	- spring
-2. mybatis
-
+	1. spring mvc
+	2. spring boot
+2. mybatis，轻量级ORM框架。
+3. druid，数据库连接池。
 ## 包结构
 包结构如下：<br>
 ![](/image/resttemplate-package.PNG)
